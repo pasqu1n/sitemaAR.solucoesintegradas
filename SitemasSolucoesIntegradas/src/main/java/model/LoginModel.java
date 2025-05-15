@@ -15,8 +15,8 @@ public class LoginModel {
 // Logico -> boolean
 // Datas -> Date
 
- String email; 
- String senha;
+ private String email; 
+ private String senha;
 
  // contrutor com paramento
     public LoginModel(String email, String senha) {
@@ -28,4 +28,24 @@ public class LoginModel {
      public LoginModel() {
          
      }
+     
+     // metodos getter e setter
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+     
+     
 }
